@@ -1,4 +1,4 @@
-package com.wzj;
+package com.wzj.mhome;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
  * spring boot 启动类
  */
 @ComponentScan(
-        "com.wzj"
+        "com.wzj.mhome"
 )
 @SpringBootApplication
 public class Application {

@@ -1,6 +1,6 @@
-package com.wzj.config;
+package com.wzj.mhome.config;
 
-import com.wzj.inteceptor.IpInterceptor;
+import com.wzj.mhome.inteceptor.IpInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;

@@ -1,4 +1,4 @@
-package com.wzj.config;
+package com.wzj.core.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.beans.factory.annotation.Value;

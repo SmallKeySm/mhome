@@ -1,4 +1,4 @@
-package com.wzj.utils;
+package com.wzj.core.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.wzj.controller.home;
+package com.wzj.mhome.controller.home;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
