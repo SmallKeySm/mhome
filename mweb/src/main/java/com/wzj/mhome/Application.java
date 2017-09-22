@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
  * spring boot 启动类
  */
 @ComponentScan(
-        "com.wzj.mhome"
+        "com.wzj"
 )
 @SpringBootApplication
 public class Application {
