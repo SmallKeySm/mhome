@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-@Service
+@Service("userService")
 @Transactional
 public class UserServiceImpl implements UserService<User, Long> {
     @Autowired
