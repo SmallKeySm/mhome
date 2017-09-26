@@ -13,6 +13,10 @@
         <module>mmodel</module>
         <module>dubboclient</module>
         <module>dubboservice</module>
+        <module>userprovider</module>
+        <module>userspi</module>
+        <module>usermodel</module>
+        <module>basedata</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -62,6 +66,17 @@
                 <artifactId>dubbo</artifactId>
                 <version>2.5.5</version>
             </dependency>
+            <!-- zookeeper -->
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>3.3.3</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.sgroschupf</groupId>
+                <artifactId>zkclient</artifactId>
+                <version>0.1</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -75,6 +90,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <version>1.5.2.RELEASE</version>
+        </dependency>
+        <!-- hibernate jpa api -->
+        <dependency>
+            <groupId>org.hibernate.javax.persistence</groupId>
+            <artifactId>hibernate-jpa-2.1-api</artifactId>
+            <version>1.0.0.Final</version>
         </dependency>
     </dependencies>
 
