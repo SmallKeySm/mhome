@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ImportResource;
 
 @ComponentScan(basePackages = {"com.wzj"})
-@ImportResource(locations = {"classpath:/dubbo.xml"})
+@ImportResource({"classpath:dubbo.xml"})
 @SpringBootApplication
 public class Application {
 
