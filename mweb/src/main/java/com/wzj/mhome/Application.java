@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ImportResource;
 @ComponentScan(
         "com.wzj"
 )
-@ImportResource({"classpath:dubbo.xml"})
+//@ImportResource({"classpath:dubbo.xml"})
 @SpringBootApplication
 public class Application {
 

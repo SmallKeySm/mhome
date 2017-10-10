@@ -8,11 +8,6 @@
     <modules>
         <module>mcore</module>
         <module>mweb</module>
-        <module>mserver</module>
-        <module>mspi</module>
-        <module>mmodel</module>
-        <module>dubboclient</module>
-        <module>dubboservice</module>
         <module>userprovider</module>
         <module>userspi</module>
         <module>usermodel</module>
